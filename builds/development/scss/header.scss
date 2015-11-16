@@ -1,0 +1,67 @@
+header {
+	width: 100%;
+	height: 86px;
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	.header-main-row {
+		width: 1194px;
+		margin: 0 auto;
+        background: white;
+        height: 100%;
+		> div {
+			width: 40%;
+			float: left;
+			&.logo {
+				width: 20%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		.left-side {
+			margin-top: 34px;
+			a {
+				margin: 0 30px;
+			}
+		}
+		.right-side {
+			margin-top: 34px;
+			a {
+				margin: 0 22px;
+			}
+			.phone {
+				font-weight: bold;
+				font-size: 16px;
+				margin-top: 34px;
+			}
+			.cart {
+				position: relative;
+				span {
+					border-bottom: 1px dotted #cecece;
+				}
+				img {
+					width: 32px;
+					height: 29px;
+					position: absolute;
+					right: -40px;
+					top: -6px;
+				}
+			}
+		}
+		.left-side a:first-child {
+			margin-left: 0;
+		}
+		.right-side a:first-child {
+			margin-left: 14px;
+		}
+		.left-side a:last-child,
+		.right-side a:last-child {
+			margin-right: 0;
+		}
+	}
+	.logo img {
+		height: 46px;
+		display: block;
+		margin: 17px auto 0;
+	}
+}

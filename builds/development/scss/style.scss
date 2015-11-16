@@ -1,0 +1,44 @@
+@import "includes/reset";
+@import "includes/font";
+@import "includes/animation";
+@import "header";
+@import "main-page";
+@import "footer";
+@import "includes/media";
+
+body {
+	font: 15px 'Merel';
+}
+
+header, footer {
+	cursor: default;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body > .container {
+	padding-top: 86px;
+}
+
+.container > .row {
+	width: 1194px;
+	margin: 0 auto;
+	height: calc(100vh - 86px - 150px);
+	> h1 {
+		padding-top: 30px;
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+.not-scrolled {
+	max-height: 100%;
+	overflow: hidden;
+}
+
+#fullpage, footer {
+	display: none;
+}

@@ -1,0 +1,60 @@
+footer {
+	height: 150px;
+	.row {
+		width: 1194px;
+		margin: 0 auto;
+		height: 100%;
+	}
+	p {
+		font: 14px 'Merel';
+	}
+	.row > div {
+		display: inline-block;
+		width: 33.33%;
+		float: left;
+		height: 100%;
+	}
+	.left {
+		> div {
+			width: 225px;
+			height: 55px;
+			margin-top: 45px;
+			float: left;
+		}
+		img {
+			width: 60px;
+		}
+		p {
+			display: inline-block;
+			vertical-align: 15px;
+			margin-left: 10px;
+		}
+	}
+	.center {
+		> div {
+			width: 104px;
+			height: 55px;
+			margin: 43px auto;
+		}
+		img {
+			width: 48px;
+		}
+	}
+	.right {
+		> div {
+			width: 191px;
+			height: 55px;
+			margin-top: 47px;
+			float: right;
+		}
+		img {
+			width: 42px;
+		}
+		p {
+			display: inline-block;
+			text-align: right;
+			vertical-align: 13px;
+			margin-right: 17px;
+		}
+	}
+}
